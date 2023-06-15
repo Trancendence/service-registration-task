@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+  }
+  
+  /* Add some padding to the container */
+  .container {
+    padding: 20px;
+  }
+  
+  /* Style the table header */
+  .table thead th {
+    cursor: pointer;
+  }
+  
+  /* Style the delete and edit buttons */
+  .btn-danger,
+  .btn-primary {
+    margin-right: 5px;
+  }
+  
+  /* Style the modal dialog */
+  .modal-dialog {
+    max-width: 500px;
+  }
+  
+  /* Style the form inputs within the modals */
+  .modal input[type="text"] {
+    margin-bottom: 10px;
+  }
+  
+  /* Add some spacing between the modal buttons */
+  .modal-footer button {
+    margin-right: 5px;
+  }
+
+  /* Sortable header */
+  .sortable-header {
+    cursor: pointer;
+  }
